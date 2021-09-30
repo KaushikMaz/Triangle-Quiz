@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--off-white);
+    color: var(--primary-color);
+    margin: 0px;
+}
+
+:root {
+    --primary-color:#48456b;
+    --off-white:#E5E7EB;
+
+    }
+
+
+.link {
+    text-decoration: none;
+    padding: 0.45rem 1rem;
+    color: var(--primary-color);
+
+}
+
+.list--inline {
+    display: inline;
+
+}
+
+.navigation {
+    height: 4rem;
+    width: 100%;
+    background-color: var(--off-white);
+}
+
+.logo {
+    color: var(--primary-color);
+    line-height: 4rem;
+    padding-left: 4rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation--elements {
+    float: right;
+    line-height: 2rem;
+    padding-right: 4rem;
+    color: var(--primary-color);
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.container {
+    margin: 2rem auto 2rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.description {
+    font-size: larger;
+    margin: 1rem;
+}
+
+.question {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+
+.question-container {
+    padding: 1rem;
+}
+
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+
+.input {
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+
+.btn-check {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--primary-color);
+    margin: auto;
+    display: block;
+}
+
+.result {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    margin: 1rem 0rem;
+}
+footer {
+    text-align: center;
+    height: 25vh;
+}
+
+hr {
+   width: 80%;
+}

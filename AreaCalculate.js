@@ -9,4 +9,4 @@ calcButton.addEventListener("click", function calcArea() {
     } else {
         result.innerText = "Values must be greater than 0";
     }
-})
+});
