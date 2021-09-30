@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triangles | Triangle quiz </title>
+    <title>Triangles | Area Calculator</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -16,13 +16,13 @@
 
         <ul class="navigation--elements">
             <li class="list--inline">
-                <a class="link link-active" href='/index.html'>TRIANGLE CHECK</a>
+                <a class="link" href='/index.html'>TRIANGLE CHECK</a>
             </li>
             <li class="list--inline">
                 <a class="link" href='/HypotenuseCalculate.html'>HYPOTENUSE CALCULATOR</a>
             </li>
             <li class="list--inline">
-                <a class="link" href='/AreaCalculate.html'>AREA CALCULATOR</a>
+                <a class="link link-active" href='/AreaCalculate.html'>AREA CALCULATOR</a>
             </li>
             <li class="list--inline">
                 <a class="link" href='/Quiz.html'>QUIZ</a>
@@ -31,19 +31,16 @@
         </ul>
     </nav>
     <div class="container">
-        <h1 class="heading">Is it a Triangle?</h1>
-        <p class="description">Enter the angles to check if it forms a Triangle or not</p>
-        <label for="Angle1" class="input-label">Angle 1:</label>
-        <input type="number" min="1" class="input-angle input">
-        <label for="Angle1" class="input-label">Angle 2:</label>
-        <input type="number" min="1" class="input-angle input">
-        <label for="Angle1" class="input-label">Angle 3:</label>
-        <input type="number" min="1" class="input-angle input">
-        <button class="btn-check">Check</button>
+        <h1 class="heading">Area Calculator</h1>
+        <p class="description">Enter Base and Height of the triangle to know the Area</p>
+        <label class="input-label" for="base" >Length of Base:</label>
+        <input type="number" min="0" id="base" class="input">
+        <label class="input-label" for="Heigth" >Length of Heigth:</label>
+        <input type="number" min="0" id="Heigth" class="input">
+        <button class="btn-check">Calculate</button>
         <div class="result"></div>
     </div>
     <hr>
-       
-    <script src="/IsTriangle.js"></script>
+    <script src="/AreaCalculate.js"></script>
 </body>
 </html>
